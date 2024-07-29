@@ -1,0 +1,2 @@
+Dataset used- https://www.kaggle.com/datasets/andrewmvd/road-sign-detection
+Install yolov5 from here: https://github.com/ultralytics/yolov5.git (should be present inside the project folder)
