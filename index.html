@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection with YOLOv5</title>
+</head>
+<body>
+    <h1>Object Detection with YOLOv5</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="file">Upload an image:</label>
+        <input type="file" id="file" name="file" accept="image/*" required>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+
+</body>
+</html>
